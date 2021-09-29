@@ -1,0 +1,309 @@
+<html>
+
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <meta name="description" content="" />
+    <meta name="author" content="" />
+    <title>Titulo Taxi</title>
+    <!-- Font Awesome icons (free version)-->
+    <script src="https://use.fontawesome.com/releases/v5.15.3/js/all.js" crossorigin="anonymous"></script>
+    <!-- Google fonts-->
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css" />
+    <link href="https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic" rel="stylesheet"
+        type="text/css" />
+    <!-- Core theme CSS (includes Bootstrap)-->
+    <link href="css/styles.css" rel="stylesheet" />
+</head>
+
+<body class="" id="page-top">
+    <!-- Navigation-->
+
+    <div class="bg-dark text-white fixed-top w-100 " id="nav">
+        <div class="col-11 mx-auto">
+            <div class="row">
+
+                <div class="col-5 col-sm-4 ">
+
+                    <a href="index.html" class="text-decoration-none row text-warning h2 ml-1 stroke py-0 my-0  ">
+                        Taxi 24H
+                    </a>
+                    <a href="index.html" class="text-decoration-none text-light h5 ml-1 stroke d-inline-block">
+                        Entregue e Satisfeito
+                    </a>
+
+                </div>
+
+                <div class="row col-7 col-sm-8 my-auto">
+
+
+
+                    <a href="simulador.html"
+                        class="my-auto text-center col-12 col-sm border border-warning rounded-3 text-decoration-none text-warning h3 stroke">
+                        Simulador
+                    </a>
+
+                    <div class="col text-center text-sm-end my-auto">
+
+                        <button class=" btn-warning btn my-auto border border-dark "
+                            onclick="makeCall()">ChamarTaxi</button>
+
+
+                    </div>
+
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- Masthead-->
+    <div class="bg-dark text-white">
+        <div class="row">
+            <div class="col">
+                <div style="background-image: url('https://images.unsplash.com/photo-1490650404312-a2175773bbf5?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1000&q=80');max-width: 100%;height: auto;background-size: cover;"
+                    class="">
+                    <div class=" text-center py-5">
+                        <div class="row justify-content-center">
+
+                            <div
+                                class="container container-bg col-lg-4 col-md-5 col-sm-10 col-10 bg-dark bg-opacity-85 rounded-3 mx-1 my-1">
+                                <img class="img-fluid mt-2" src="icons/taxiicon2.png" style="max-width: 30%;" alt="">
+                                <h3 class="h3 stroke">Taxista de Vila Nova de Famalicão</h1>
+                                    <div class="col-7 mx-auto">
+                                        <p>Serviços Disponiveis na Vila Nova de famalicão</p>
+                                    </div>
+
+                            </div>
+                            <div
+                                class="container container-bg col-lg-4 col-md-5 col-sm-10 col-10 bg-dark bg-opacity-85 rounded-3 mx-1 my-1">
+                                <img class="img-fluid mt-2" src="icons/lugageicon2.png" style="max-width: 30%;" alt="">
+                                <h3 class="h3 stroke">Bagagem</h3>
+                                <div class="col-7 mx-auto">
+                                    <p>Serviço de bagagem sempre disponivel até 3 malas</p>
+                                </div>
+                            </div>
+
+                        </div>
+                        <div class="row justify-content-center">
+                            <div
+                                class="container container-bg col-lg-4 col-md-5 col-sm-10 col-10 bg-dark bg-opacity-85 rounded-3 mx-1 my-1">
+                                <img class="img-fluid mt-2" src="icons/tagicon2.png" style="max-width: 30%;" alt="">
+                                <h3 class="h3 stroke">Garantia-Qualidade</h1>
+                                    <div class="col-7 mx-auto">
+                                        <p class=" ">Garantimos sempre a melhor qualidade para os nosso clientes
+                                        </p>
+                                    </div>
+                            </div>
+                            <div
+                                class="container container-bg col-lg-4 col-md-5 col-sm-10 col-10 bg-dark bg-opacity-85 rounded-3 mx-1 my-1 ">
+                                <img class="img-fluid mt-2" src="icons/paperplainicon2.png" style="max-width: 30%;"
+                                    alt="">
+                                <h3 class="h3 stroke">Aeroporto</h1>
+                                    <div class="col-7 mx-auto">
+                                        <p class=" ">serviços de recolha de aeroporto disponivel</p>
+                                    </div>
+                            </div>
+                        </div>
+                        <div class="divider-custom divider-light">
+                            <div class="divider-custom-line"></div>
+                            <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
+                            <div class="divider-custom-line"></div>
+                        </div>
+                        <!-- Masthead Subheading-->
+                        <p class="masthead-subheading font-weight-light mb-0">Taxista Vila Nova de Famalicão</p>
+
+
+                    </div>
+
+
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+
+    <!-- Portfolio Section-->
+
+    <!-- About Section-->
+    <section class="my-3 ">
+        <div class="container bg-dark rounded">
+            <h1 class="d-flex justify-content-center text-white stroke">Veículos Disponíveis</h1>
+
+            <div class="divider-custom divider-light ">
+                <div class="divider-custom-line "></div>
+                <div class="divider-custom-icon "><i class="fas fa-star"></i></div>
+                <div class="divider-custom-line "></div>
+            </div>
+            <!-- Portfolio Grid Items-->
+            <div class="row justify-content-center">
+                <!-- Portfolio Item 1-->
+                <div class="row text-center text-white mb-4 ">
+
+                    <div class="col-md col-sm-12">
+
+                        <p class="h3 stroke">Pacote Normal</p>
+                        <div class="d-flex justify-content-center ">
+
+                            <div><img src="1car.png" class="img-fluid" alt="" style="max-width: 50%;"></div>
+
+                        </div>
+
+                        <div class="col mt-4 h6">
+                            <p>Transporte de 1-4 pessoas!</p>
+                        </div>
+                    </div>
+                    <div class="col-md col-sm-12 ">
+
+                        <p class="h3 stroke">Pacote Especial</p>
+
+                        <div class="col d-flex justify-content-center">
+                            <img src="2cars.png" class="img-fluid" style="max-width: 50%;" alt="">
+                        </div>
+
+                        <div class="col mt-4 h6">
+                            <p>Transporte de 1-6 pessoas!</p>
+                        </div>
+
+                    </div>
+                    <div class="col-md col-sm-12 text-warning ">
+
+                        <p class="h3 stroke">Pacote Golden</p>
+
+                        <div class="col d-flex justify-content-center">
+                            <img src="3cars.png" class="img-fluid" style="max-width: 50%;" alt="">
+                        </div>
+
+                        <div class="col mt-4 h6">
+                            <p>Transporte de 1-8 pessoas!</p>
+                        </div>
+                    </div>
+                </div>
+                <div
+                    class="row text-center justify-content-center col-lg-3 col-md-4 col-sm-5 col-7 bg-dark border border-warning rounded-3">
+
+                    <a href="simulador.html" class="text-decoration-none h">
+                        <p class=" text-warning my-0 h2 stroke">Simulador</p>
+                    </a>
+
+
+                </div>
+
+
+            </div>
+
+        </div>
+
+
+    </section>
+    <!--SECÇAO REPETIDA APAGAR NO FIM-->
+
+
+    <!-- Contact Section-->
+
+    <!-- Footer-->
+    <footer class="footer text-center bg-dark "
+        style="background-image: url('https://cdn.pixabay.com/photo/2014/07/01/12/35/taxi-381233_960_720.jpg');background-repeat: no-repeat; background-size: cover;">
+        <div class="container bg-dark rounded-3 bg-opacity-85">
+            <div class="row justify-content-center ">
+                <!-- Footer Location-->
+
+                <div class="col-12 mx-auto text-center justify-content-center">
+                    <h1 class=" my-4 stroke text-warning mb-5">Motorista com Experiência</h1>
+                    <p class="mx-auto col-8 h4 text-center">Motorista com anos de experiência e curso profissional de
+                        taxi tendo como destaque o serviço de excelência onde a simpatia, higiene e segurança prevalece
+                    </p>
+
+
+                </div>
+
+
+
+                <!-- Footer About Text-->
+
+            </div>
+            <!--
+            <div class="row justify-content-center mt-5  ">
+
+
+                <h3 class="stroke mb-5 h2">Lista de serviços Disponiveis</h3>
+
+                <ul class=" text-start h6 rounded-3 list-unstyled ">
+
+                    <li class="mb-2">Taxi para Aeroportos</li>
+                    <li class="mb-2">Serviços para Empresas e Particulares</li>
+                    <li class="mb-2">Serviço porta a porta (Marcação via telefone, no momento, para qualquer destino)
+                    </li>
+                    <li class="mb-2">Reserva de táxi com dia e hora pré-definidos</li>
+                    <li class="mb-2">Transporte de Crianças entre casa/escola e outros</li>
+                    <li class="mb-2">Serviço de Fisioterapias ou Transporte de Doentes</li>
+
+                </ul>
+
+
+            </div>
+            -->
+
+        </div>
+    </footer>
+    <!-- Copyright Section-->
+    <div class="copyright py-4 text-center text-white">
+
+        <div class="container  ">
+            <div class="row mb-3">
+
+                <div class="col-lg-3 col-6 my-auto order-1 order-lg-0">
+                    <img class="img-fluid mb-3" src="icons/callicon.png" style=" max-width: 14%;" alt=""
+                        onclick="makeCall()">
+                    <p class="mb-0">Tel: 912345678</p>
+                </div>
+
+
+                <div class="col-lg-6 col-12 text-center order-0 order-lg-1">
+                    <h3 class="h3 text-warning mb-4">Cobertura</h3>
+                    <p>Antas e Abade de Vermoim – Arnoso (Sta. Eulália, Sta. Maria) e Sezures – Avidos e Lagoa – Bairro
+                        – Brufe – Carreira e Bente – Castelões – Cruz – Delães – Esmeriz e Cabeçudos – Fradelos – Gavião
+                        – Gondifelos, Cavalões e Outiz – Joane – Landim – Lemenhe, Mouquim e Jesufrei – Louro – Lousado
+                        – Mogege – Nine – Oliveira S. Mateus – Oliveira Sta. Maria – Pedome – Pousada de Saramagos –
+                        Requião – Riba de Ave – Ribeirão – Ruivães e Novais – Seide S. Miguel e Seide S. Paio – Vale S.
+                        Cosme, Telhado e Portela – Vale S. Martinho – Vermoim – Vila Nova de Famalicão – Calendário –
+                        Vilarinho das Cambas</p>
+                </div>
+
+                <div class="col-lg-3 col-6 my-auto order-2 order-lg-2">
+                    <img class="img-fluid mb-3" src="icons/calendaricon.png" style=" max-width: 14%;" alt=""
+                        >
+                    <p class="mb-0">Horario: 24/7</p>
+                </div>
+
+
+
+            </div>
+           
+
+
+        
+
+        </div>
+
+        <div class="container"><small>Copyright &copy;JoãoCerqueira 2021</small></div>
+    </div>
+
+
+    </div>
+    <!-- Bootstrap core JS-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- Core theme JS-->
+
+    <!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *-->
+    <!-- * *                               SB Forms JS                               * *-->
+    <!-- * * Activate your form at https://startbootstrap.com/solution/contact-forms * *-->
+    <!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *-->
+    <script src="https://cdn.startbootstrap.com/sb-forms-latest.js"></script>
+    <script src="js/main.js"></script>
+</body>
+
+</html>
