@@ -40,7 +40,12 @@
 
 
 
-                        <div class="col text-center text-sm-end my-auto">
+                        <a href="simulador.html"
+                            class="my-auto text-center col-12 col-sm border border-warning rounded-3 text-decoration-none text-warning h3 stroke">
+                            Simulador
+                        </a>
+
+                        <div class="col-6 text-center my-auto d-none d-md-block">
 
                             <button class=" btn-warning btn my-auto border border-dark "
                                 onclick="makeCall()">ChamarTaxi</button>
@@ -49,7 +54,17 @@
                         </div>
 
 
+
+
                     </div>
+
+                </div>
+                <div class="col-12 text-center my-auto fixed-bottom d-md-none d-md-block">
+
+                    <button class=" btn-warning btn btn-lg my-auto border border-dark "
+                        onclick="makeCall()">ChamarTaxi</button>
+
+
                 </div>
             </div>
         </div>
@@ -85,14 +100,24 @@
                                     min="0" placeholder="Inserir km aqui">
 
 
+                                <select name="bagagem" id="luggage" class="form-select-sm">
+                                    <option value="" disabled selected>Bagagem</option>
+                                    <option value="0">0</option>
+                                    <option value="1">1</option>
+                                    <option value="2">2</option>
+                                    <option value="3">3</option>
+                                </select>
+
                                 <button id="btn_click" class="btn-warning btn my-auto border border-dark"
                                     onclick="simulate()">Calcular
                                     valor</button>
+
                             </div>
 
                             <div class="row d-flex text-center justify-content-center">
-                                <label class="my-4 h4 col-12 text-center" id="total">0</label>
 
+                                <label class="my-4 h4 col-12 text-center" id="total">0</label>
+                                <p>não inclui Km feitos até a recolha do passageiro </p>
 
                             </div>
                         </div>
@@ -144,8 +169,7 @@
                 </div>
 
                 <div class="col-lg-3 col-6 my-auto order-2 order-lg-2">
-                    <img class="img-fluid mb-3" src="icons/calendaricon.png" style=" max-width: 14%;" alt=""
-                        >
+                    <img class="img-fluid mb-3" src="icons/calendaricon.png" style=" max-width: 14%;" alt="">
                     <p class="mb-0">Horario: 24/7</p>
                 </div>
 
